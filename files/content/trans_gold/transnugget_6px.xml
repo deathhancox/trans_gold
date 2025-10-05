@@ -1,5 +1,6 @@
-<SpriteComponent
+<Sprite
 filename="mods/trans_gold/files/content/trans_gold/sprites/transnugget_6px.png"
 offset_x="3"
 offset_y="3"
->
+ >
+</Sprite>

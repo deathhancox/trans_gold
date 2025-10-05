@@ -1,10 +1,10 @@
 <Mod
     name="Trans Gold"
-    description="Adds a trans flag shader to gold nuggets."
-    tags="gameplay,tweaks"
+    description="Changes gold nuggets to have a trans flag themed texture."
+    tags="graphics"
     version="1.0.0"
     path="midas_gold"
     requires_noita_version=">=1.0"
     ui_icon="icon.png"
-    dont_upload_files="icon.xcf|workshop_preview_image.xcf"
+    dont_upload_folders="reference"
 />

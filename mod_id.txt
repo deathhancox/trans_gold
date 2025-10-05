@@ -1,1 +1,1 @@
-midas_gold
+trans_gold
