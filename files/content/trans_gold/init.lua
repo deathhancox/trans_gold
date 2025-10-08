@@ -11,7 +11,9 @@ for content in nxml.edit_file("data/entities/items/pickup/goldnugget.xml") do
 		image_file = "mods/trans_gold/files/content/trans_gold/transnugget_01.xml",
 	}))
 
-	content:first_of("PhysicsImageShapeComponent"):set("material", "gold_invisible_box2d")
+	local PhysicsImageShapeComponent = content:first_of("PhysicsImageShapeComponent")
+	PhysicsImageShapeComponent:set("image_file", "mods/trans_gold/files/items_gfx/goldnugget_01.png")
+	PhysicsImageShapeComponent:set("material", "gold_invisible_box2d")
 end
 
 for content in nxml.edit_file("data/entities/items/pickup/goldnugget_10.xml") do
@@ -20,7 +22,9 @@ for content in nxml.edit_file("data/entities/items/pickup/goldnugget_10.xml") do
 		image_file = "mods/trans_gold/files/content/trans_gold/transnugget_6px.xml",
 	}))
 
-	content:first_of("PhysicsImageShapeComponent"):set("material", "gold_invisible_box2d")
+	local PhysicsImageShapeComponent = content:first_of("PhysicsImageShapeComponent")
+	PhysicsImageShapeComponent:set("image_file", "mods/trans_gold/files/items_gfx/goldnugget_6px.png")
+	PhysicsImageShapeComponent:set("material", "gold_invisible_box2d")
 end
 
 for content in nxml.edit_file("data/entities/items/pickup/goldnugget_50.xml") do
@@ -29,7 +33,9 @@ for content in nxml.edit_file("data/entities/items/pickup/goldnugget_50.xml") do
 		image_file = "mods/trans_gold/files/content/trans_gold/transnugget_9px.xml",
 	}))
 
-	content:first_of("PhysicsImageShapeComponent"):set("material", "gold_invisible_box2d")
+	local PhysicsImageShapeComponent = content:first_of("PhysicsImageShapeComponent")
+	PhysicsImageShapeComponent:set("image_file", "mods/trans_gold/files/items_gfx/goldnugget_9px.png")
+	PhysicsImageShapeComponent:set("material", "gold_invisible_box2d")
 end
 
 for content in nxml.edit_file("data/entities/items/pickup/goldnugget_200.xml") do
@@ -38,7 +44,9 @@ for content in nxml.edit_file("data/entities/items/pickup/goldnugget_200.xml") d
 		image_file = "mods/trans_gold/files/content/trans_gold/transnugget_12px.xml",
 	}))
 
-	content:first_of("PhysicsImageShapeComponent"):set("material", "gold_invisible_box2d")
+	local PhysicsImageShapeComponent = content:first_of("PhysicsImageShapeComponent")
+	PhysicsImageShapeComponent:set("image_file", "mods/trans_gold/files/items_gfx/goldnugget_12px.png")
+	PhysicsImageShapeComponent:set("material", "gold_invisible_box2d")
 end
 
 for content in nxml.edit_file("data/entities/items/pickup/goldnugget_1000.xml") do
@@ -47,7 +55,9 @@ for content in nxml.edit_file("data/entities/items/pickup/goldnugget_1000.xml") 
 		image_file = "mods/trans_gold/files/content/trans_gold/transnugget_20px.xml",
 	}))
 
-	content:first_of("PhysicsImageShapeComponent"):set("material", "gold_invisible_box2d")
+	local PhysicsImageShapeComponent = content:first_of("PhysicsImageShapeComponent")
+	PhysicsImageShapeComponent:set("image_file", "mods/trans_gold/files/items_gfx/goldnugget_20px.png")
+	PhysicsImageShapeComponent:set("material", "gold_invisible_box2d")
 end
 
 
